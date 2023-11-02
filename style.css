@@ -1,12 +1,83 @@
-.blue{
+header{
+    background-color: rgb(38, 38, 87);
+    color:white; 
+    font-family:'Courier New', Courier, monospace;
+}
+
+.flex_boxes{
     display: flex;
-    flex-direction: column;
-    background-color: blue; 
+    justify-content: space-around;
 }
 
-.black{
+a {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    margin:30px;
+}
+
+body{
+    margin:0px;
+}
+
+.logo img {
+    width: 150px; /* Set the width of the logo */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+.headerx{
     display:flex;
-    flex-direction:column; 
-    background-color: black;
+    justify-content:center;
+    
 }
 
+.text{
+    font-size:xx-large;
+    position: relative;
+    margin:120px;
+}
+.write-up{
+    display:flex;
+}
+.img_dog img{
+    padding:50px;
+}
+
+second{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icon img{
+    padding:30px;
+}
+
+.icon{
+    display:flex;
+
+}
+
+.icon_work{
+   display: flex;
+   flex-direction: column;
+   padding:30px;
+
+}
+
+third{
+    background-color: rgb(145, 145, 255);
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+third h2{
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
